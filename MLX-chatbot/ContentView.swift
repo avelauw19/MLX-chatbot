@@ -62,7 +62,7 @@ struct ContentView: View {
         VStack(spacing: 0) {
 
 
-            Image(systemName: "soccerball")
+            Image("logo")
                 
     //----End of Section 3: App Icon/sf Symbols----//
             if vm.messages.isEmpty || !vm.isReady {
